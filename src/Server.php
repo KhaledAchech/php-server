@@ -1,5 +1,8 @@
 <?php namespace App;
 
+use App\Exception;
+use App\Request;
+
 class Server {
     
     protected $host   = null;
