@@ -1,5 +1,7 @@
 <?php namespace App;
 
+use App\Exception;
+
 class Request {
     protected  $method      = null;
     protected  $uri         = null;
